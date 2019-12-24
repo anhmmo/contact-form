@@ -8,6 +8,122 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
+    <main class="container">
+        <section class="header-title">
+            <h1>Simple Contact Form</h1>
+            <p>Thank you for spending the time to feedback us to improve this website</p>
+        </section>
+
+        <section class="main-form">
+
+            <div class="form-box-input">
+                <label for="">Name</label>
+                <input type="text" placeholder="Enter your name" id="input-box">
+            </div>
+
+            <div class="form-box-input">
+                <label for="">Email</label>
+                <input type="email" placeholder="Enter your Email" id="input-box">
+            </div>
+
+            <div class="form-box-input">
+                <label for="">Age <span>(optional)</span></label>
+                <input type="number" min="18" max="90" placeholder="Enter your age" id="input-box">
+            </div>
+
+            <div class="form-box-select">
+                <label for="">Which option best describes your current job?</label>
+                <select name="" id="select-box">
+                    <option value="" disabled selected>Select current job</option>
+                    <option value="">Student</option>
+                    <option value="">Software developer</option>
+                    <option value="">Web-fullstack developer</option>
+                    <option value="">Software engineer</option>
+                </select>
+            </div>
+
+            <div class="form-box-input">
+                <label>Would you recommend website to a friend?</label>
+                <label>
+                    <input type="radio" name="radio-box" class="radio-group" checked/>
+                    Definitely
+                </label>
+                <label>
+                    <input type="radio" name="radio-box" class="radio-group"/>
+                    Maybe
+                </label>
+                <label>
+                    <input type="radio" name="radio-box" class="radio-group"/>
+                    Not sure
+                </label>
+            </div>
+
+            <div class="form-box-select">
+                <label for="">What is your favorite feature of website?</label>
+                <select name="" id="select-box">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="">Projects</option>
+                    <option value="">Demo</option>
+                    <option value="">Services</option>
+                    <option value="">Comments</option>
+                </select>
+            </div>
+
+
+            <div class="form-box-input">
+                <label>What would you like to see improved? (Check all that apply)</label>
+                <label>
+                    <input type="checkbox" class="checkbox-group"/>
+                    Front-end Projects
+                </label>
+                <label>
+                    <input type="checkbox" class="checkbox-group"/>
+                    Back-end Projects
+                </label>
+                <label>
+                    <input type="checkbox" class="checkbox-group"/>
+                    Data Visualization
+                </label>
+                <label>
+                    <input type="checkbox" class="checkbox-group"/>
+                    Challenges
+                </label>
+                <label>
+                    <input type="checkbox" class="checkbox-group"/>
+                    Open Source Community
+                </label>
+                <label>
+                    <input type="checkbox" class="checkbox-group"/>
+                    Gitter help rooms
+                </label>
+                <label>
+                    <input type="checkbox" class="checkbox-group"/>
+                    Videos
+                </label>
+                <label>
+                    <input type="checkbox" class="checkbox-group"/>
+                    City Meetups
+                </label>
+                <label>
+                    <input type="checkbox" class="checkbox-group"/>
+                    Wiki
+                </label>
+                <label>
+                    <input type="checkbox" class="checkbox-group"/>
+                    Forum
+                </label>
+                <label>
+                    <input type="checkbox" class="checkbox-group"/>
+                    Additional Courses
+                </label>
+            </div>
+
+            <textarea name="" id="text-area" placeholder="Enter your comment here">
+            </textarea>
+
+            <button class="submit-button">submit</button>
+
+        </section>
+    </main>
 </body>
 </html>
