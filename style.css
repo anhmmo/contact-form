@@ -1,0 +1,25 @@
+
+
+
+/* ----------- scroll right tab ---------------*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 16px;
+  
+  
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    
+    background-image: linear-gradient(to right bottom, rgb(255, 234, 0, 0.8),rgba(180, 60, 52, 0.8)) ;
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      
+    background-image: linear-gradient(to right bottom, #FFEB3B,#03c2af) ;
+    
+  }
