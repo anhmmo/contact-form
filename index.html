@@ -31,9 +31,9 @@
                 <input type="number" min="18" max="90" placeholder="Enter your age" id="input-box">
             </div>
 
-            <div class="form-box-select">
+            <div class="form-box-input">
                 <label for="">Which option best describes your current job?</label>
-                <select name="" id="select-box">
+                <select name="" id="input-box">
                     <option value="" disabled selected>Select current job</option>
                     <option value="">Student</option>
                     <option value="">Software developer</option>
@@ -58,9 +58,9 @@
                 </label>
             </div>
 
-            <div class="form-box-select">
+            <div class="form-box-input">
                 <label for="">What is your favorite feature of website?</label>
-                <select name="" id="select-box">
+                <select name="" id="input-box">
                     <option value="" disabled selected>Select an option</option>
                     <option value="">Projects</option>
                     <option value="">Demo</option>
@@ -118,10 +118,21 @@
                 </label>
             </div>
 
-            <textarea name="" id="text-area" placeholder="Enter your comment here">
-            </textarea>
-
-            <button class="submit-button">submit</button>
+            
+                <p>Any comments or suggestions?</p>
+                <textarea
+                  id="comments"
+                  class="input-textarea"
+                  name="comment"
+                  placeholder="Enter your comment here..."
+                ></textarea>
+           
+          
+             
+                <button type="submit" id="submit" class="submit-button">
+                  Submit
+                </button>
+            
 
         </section>
     </main>
