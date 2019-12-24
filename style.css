@@ -28,10 +28,35 @@ html{
     scroll-behavior: smooth;
 }
 
-/**/
-@media(max-width: 75rem){
-
+/* 1200px/16px = 75em*/
+@media(max-width: 75em){
+    html{
+        font-size: 60%;
+    }
 }
+
+/* 980px/16px = 75em*/
+@media(max-width: 61.25em){
+    html{
+        font-size: 58%;
+    }
+}
+
+/* 460px/16px = 75em*/
+@media(max-width: 28.75em){
+    html{
+        font-size: 55%;
+    }
+}
+
+body{
+    background-color: var(--buttonColorGreen);
+    font-size: 2rem;
+}
+
+
+
+
 
 
 /* ----------- scroll right tab ---------------*/
