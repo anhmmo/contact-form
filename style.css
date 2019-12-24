@@ -92,8 +92,22 @@ body{
 }
 
 label{
+    display: flex;
+    align-items: center;
     margin-bottom: 0.8rem;
+}
+
+.checkbox-group, .radio-group{
+   margin-right: 0.7rem;
+    height: 2.2rem;
+    width: 2.2rem;
     
+}
+
+span{
+    font-size: 1.5rem;
+    color: rgb(206, 203, 203);
+    margin-left: 0.5rem;
 }
 
 #input-box{
