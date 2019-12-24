@@ -1,4 +1,37 @@
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+/*create default setting and reset properties of webpages*/
+
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(26, 114, 99, 0.8);
+    --colorBlueWhite: #00BCD4;
+    --buttonColorGold: linear-gradient(to right bottom, rgba(255, 234, 0, 0.8),rgba(180, 60, 52, 0.8));
+    --buttonColorGreen: linear-gradient(to right bottom, #FFEB3B,#03c2af);
+    --text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*set default font size to rem, 1rem = 10px when font-size is 62,5% */
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/**/
+@media(max-width: 75rem){
+
+}
 
 
 /* ----------- scroll right tab ---------------*/
@@ -6,20 +39,15 @@
 /* width */
 ::-webkit-scrollbar {
     width: 16px;
-  
-  
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    
     background-image: linear-gradient(to right bottom, rgb(255, 234, 0, 0.8),rgba(180, 60, 52, 0.8)) ;
     border-radius: 3px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-      
     background-image: linear-gradient(to right bottom, #FFEB3B,#03c2af) ;
-    
   }
